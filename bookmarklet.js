@@ -681,7 +681,7 @@
             <div class="issue-due-date badge"></div>
             <div class="issue-due-icon badge"></div>
         </div>
-        div class="issue-value badge"></div>
+        <div class="issue-value badge">3</div>
     </div>
     <div class="card-footer">
         <div class="issue-qr-code badge"></div>
