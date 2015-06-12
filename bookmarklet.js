@@ -848,7 +848,7 @@ body {
     height: 1.6rem;
     width: 1.6rem;
     border-radius: 50% !important;
-    background-color: ORANGE;
+    background-color: WHITESMOKE;
     line-height: 1.4rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -861,7 +861,7 @@ body {
     height: 1.6rem;
     width: 1.6rem;
     border-radius: 50% !important;
-    background-color: WHITESMOKE;
+    background-color: ORGANGE !important;
     line-height: 1.4rem;
     font-size: 0.9rem;
     font-weight: bold;
