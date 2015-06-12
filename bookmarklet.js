@@ -3,7 +3,7 @@
   console.log("Version: " + version);
 
   var global = {};
-  global.isDev = /.*jira.atlassian.com\/secure\/RapidBoard.jspa\?.*projectKey=ANERDS.*/g.test(document.URL) // Jira
+  global.isDev = /.*jira.atlassain.com\/secure\/RapidBoard.jspa\?.*projectKey=ANERDS.*/g.test(document.URL) // Jira
     || /.*pivotaltracker.com\/n\/projects\/510733.*/g.test(document.URL) // PivotTracker
     || (/.*trello.com\/.*/g.test(document.URL) && jQuery("span.js-member-name").text() == 'Bengt Brodersen'); // Trello
   global.isProd = !global.isDev;
@@ -745,7 +745,6 @@ body {
 }
 .card-content {
     position: relative;
-    height: 100%;
     // find .card-header;
     padding-top: 2rem;
     // find .card-footer;
