@@ -854,6 +854,19 @@ body {
     font-weight: bold;
     text-align: center;
 }
+.issue-value {
+    position: absolute;
+    right: 2.5rem;
+    top: 0.0rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50% !important;
+    background-color: WHITESMOKE;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
 .issue-qr-code {
     position: absolute;
     left:0rem;
