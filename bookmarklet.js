@@ -332,7 +332,7 @@
     var style = document.createElement('style');
     style.id = 'styleRowCount';
     style.type = 'text/css';
-    style.innerHTML = ".card { height: calc( 100% / " + rowCount + " - 0.0001px ); }"
+    //style.innerHTML = ".card { height: calc( 100% / " + rowCount + " - 0.0001px ); }"
     jQuery("head", printDocument).append(style);
 
     // scale
